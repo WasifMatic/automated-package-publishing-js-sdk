@@ -20,10 +20,10 @@ Find out more about Swagger: [https://swagger.io](https://swagger.io)
 Run the following command from your project directory to install the package from npm:
 
 ```bash
-npm install automated-package-publishing-sdk@8.0.1
+npm install automated-package-publishing-sdk@4.0.1
 ```
 
-For additional package details, see the [Npm page for the automated-package-publishing-sdk@8.0.1 npm](https://www.npmjs.com/package/automated-package-publishing-sdk/v/8.0.1).
+For additional package details, see the [Npm page for the automated-package-publishing-sdk@4.0.1 npm](https://www.npmjs.com/package/automated-package-publishing-sdk/v/4.0.1).
 
 ## Initialize the API Client
 
