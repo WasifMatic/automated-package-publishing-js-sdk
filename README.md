@@ -10,21 +10,21 @@ Simple calculator API hosted on APIMATIC
 Run the following command from your project directory to install the package from npm:
 
 ```bash
-npm install automated-package-publishing-sdk@1.13.4
+npm install automated-package-publishing-sdk@1.0.25
 ```
 
-For additional package details, see the [Npm page for the automated-package-publishing-sdk@1.13.4 npm](https://www.npmjs.com/package/automated-package-publishing-sdk/v/1.13.4).
+For additional package details, see the [Npm page for the automated-package-publishing-sdk@1.0.25 npm](https://www.npmjs.com/package/automated-package-publishing-sdk/v/1.0.25).
 
 ## Initialize the API Client
 
-**_Note:_** Documentation for the client can be found [here.](https://www.github.com/WasifMatic/automated-package-publishing-js-sdk/tree/1.13.4/doc/client.md)
+**_Note:_** Documentation for the client can be found [here.](https://www.github.com/WasifMatic/automated-package-publishing-js-sdk/tree/1.0.25/doc/client.md)
 
 The following parameters are configurable for the API Client:
 
 | Parameter | Type | Description |
 |  --- | --- | --- |
 | timeout | `number` | Timeout for API calls.<br>*Default*: `0` |
-| httpClientOptions | [`Partial<HttpClientOptions>`](https://www.github.com/WasifMatic/automated-package-publishing-js-sdk/tree/1.13.4/doc/http-client-options.md) | Stable configurable http client options. |
+| httpClientOptions | [`Partial<HttpClientOptions>`](https://www.github.com/WasifMatic/automated-package-publishing-js-sdk/tree/1.0.25/doc/http-client-options.md) | Stable configurable http client options. |
 | unstableHttpClientOptions | `any` | Unstable configurable http client options. |
 
 The API client can be initialized as follows:
@@ -56,7 +56,7 @@ const fileContent = fs.readFileSync(absolutePath, 'utf-8');
 const client = Client.fromJsonConfig(fileContent);
 ```
 
-See the [Configuration-Based Client Initialization](https://www.github.com/WasifMatic/automated-package-publishing-js-sdk/tree/1.13.4/doc/configuration-based-client-initialization.md) section for details.
+See the [Configuration-Based Client Initialization](https://www.github.com/WasifMatic/automated-package-publishing-js-sdk/tree/1.0.25/doc/configuration-based-client-initialization.md) section for details.
 
 ### Environment-Based Client Initialization
 
@@ -78,28 +78,28 @@ if (fs.existsSync(absolutePath)) {
 const client = Client.fromEnvironment(process.env);
 ```
 
-See the [Environment-Based Client Initialization](https://www.github.com/WasifMatic/automated-package-publishing-js-sdk/tree/1.13.4/doc/environment-based-client-initialization.md) section for details.
+See the [Environment-Based Client Initialization](https://www.github.com/WasifMatic/automated-package-publishing-js-sdk/tree/1.0.25/doc/environment-based-client-initialization.md) section for details.
 
 ## List of APIs
 
-* [Simple Calculator](https://www.github.com/WasifMatic/automated-package-publishing-js-sdk/tree/1.13.4/doc/controllers/simple-calculator.md)
+* [Simple Calculator](https://www.github.com/WasifMatic/automated-package-publishing-js-sdk/tree/1.0.25/doc/controllers/simple-calculator.md)
 
 ## SDK Infrastructure
 
 ### Configuration
 
-* [HttpClientOptions](https://www.github.com/WasifMatic/automated-package-publishing-js-sdk/tree/1.13.4/doc/http-client-options.md)
-* [RetryConfiguration](https://www.github.com/WasifMatic/automated-package-publishing-js-sdk/tree/1.13.4/doc/retry-configuration.md)
-* [ProxySettings](https://www.github.com/WasifMatic/automated-package-publishing-js-sdk/tree/1.13.4/doc/proxy-settings.md)
-* [Configuration-Based Client Initialization](https://www.github.com/WasifMatic/automated-package-publishing-js-sdk/tree/1.13.4/doc/configuration-based-client-initialization.md)
-* [Environment-Based Client Initialization](https://www.github.com/WasifMatic/automated-package-publishing-js-sdk/tree/1.13.4/doc/environment-based-client-initialization.md)
+* [HttpClientOptions](https://www.github.com/WasifMatic/automated-package-publishing-js-sdk/tree/1.0.25/doc/http-client-options.md)
+* [RetryConfiguration](https://www.github.com/WasifMatic/automated-package-publishing-js-sdk/tree/1.0.25/doc/retry-configuration.md)
+* [ProxySettings](https://www.github.com/WasifMatic/automated-package-publishing-js-sdk/tree/1.0.25/doc/proxy-settings.md)
+* [Configuration-Based Client Initialization](https://www.github.com/WasifMatic/automated-package-publishing-js-sdk/tree/1.0.25/doc/configuration-based-client-initialization.md)
+* [Environment-Based Client Initialization](https://www.github.com/WasifMatic/automated-package-publishing-js-sdk/tree/1.0.25/doc/environment-based-client-initialization.md)
 
 ### HTTP
 
-* [HttpRequest](https://www.github.com/WasifMatic/automated-package-publishing-js-sdk/tree/1.13.4/doc/http-request.md)
+* [HttpRequest](https://www.github.com/WasifMatic/automated-package-publishing-js-sdk/tree/1.0.25/doc/http-request.md)
 
 ### Utilities
 
-* [ApiResponse](https://www.github.com/WasifMatic/automated-package-publishing-js-sdk/tree/1.13.4/doc/api-response.md)
-* [ApiError](https://www.github.com/WasifMatic/automated-package-publishing-js-sdk/tree/1.13.4/doc/api-error.md)
+* [ApiResponse](https://www.github.com/WasifMatic/automated-package-publishing-js-sdk/tree/1.0.25/doc/api-response.md)
+* [ApiError](https://www.github.com/WasifMatic/automated-package-publishing-js-sdk/tree/1.0.25/doc/api-error.md)
 
