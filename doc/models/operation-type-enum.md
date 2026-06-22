@@ -18,7 +18,9 @@ Possible operators are sum, subtract, multiply, divide
 
 ## Example
 
-```
-SUM
+```ts
+import { OperationTypeEnum } from 'automated-package-publishing-sdk';
+
+const operationType = OperationTypeEnum.SUM;
 ```
 
