@@ -1,5 +1,5 @@
 {
-  "version": "1.0.47",
+  "version": "0.0.2",
   "license": "MIT",
   "sideEffects": false,
   "main": "dist/cjs/index.js",
@@ -26,7 +26,7 @@
     "trailingComma": "es5",
     "quoteProps": "preserve"
   },
-  "name": "automated-package-publishing-sdk",
+  "name": "automated-package-publishing",
   "description": "Package Publishing",
   "author": {
     "name": "Package Publisher",
